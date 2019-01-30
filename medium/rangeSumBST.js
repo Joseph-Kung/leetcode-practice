@@ -12,8 +12,6 @@
 //  * @return {number}
 //  */
 
-//O(log n) time
-
 var rangeSumBST = function (root, L, R) {
   let stack = [root];
   let sum = 0;
